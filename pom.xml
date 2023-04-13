@@ -59,6 +59,8 @@
         <checkstyle.version>10.9.2</checkstyle.version>
         <!-- Code Coverage Properties-->
         <jacoco.agent.argLine />
+        <!-- Faster build when using -DskipTests -->
+        <quarkus.build.skip>${skipTests}</quarkus.build.skip>
     </properties>
     <distributionManagement>
         <snapshotRepository>
